@@ -21,8 +21,8 @@ public:
   void sendGeneric(uint32_t data,  uint8_t numBits, uint16_t headMark, uint16_t headSpace, 
                    uint16_t markOne, uint16_t markZero, uint16_t spaceOne, uint16_t spaceZero, 
 				   uint8_t kHz, bool stopBits, uint32_t maxExtent=0);
-protected:
   void enableIROut(uint8_t khz);
+protected:
   void mark(uint16_t usec);
   void space(uint16_t usec);
   uint32_t extent;

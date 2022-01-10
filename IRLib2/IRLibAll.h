@@ -33,6 +33,7 @@
 #include <IRLib_P10_DirecTV.h>
 #include <IRLib_P11_RCMM.h>
 #include <IRLib_P12_CYKM.h>
+#include <IRLib_P13_DYNASTY20LASERTAG.h>
 //include additional protocols here
 #include <IRLibCombo.h>
 #include <IRLibRecv.h>
